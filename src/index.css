@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-underline::after{
+    content: "";
+    display: block;
+    width: 30%;
+    padding-top: 20px;
+    border-bottom: 4px solid #BB86FC;
+    transition: .5s;
+}
+.name-underline::after{
+    content: "";
+    display: block;
+    width: 17%;
+    padding-top: 6px;
+    border-bottom: 4px solid #BB86FC;
+    transition: .5s;
+}
