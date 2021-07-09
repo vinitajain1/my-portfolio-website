@@ -7,6 +7,14 @@ export const projects = [
     image: "./task-manager.gif",
     link: "https://github.com/vinitajain1/nodejs-task-manager",
   },
+  {
+    title: "Portfolio",
+    subtitle: "ReactJs,Tailwind CSS",
+    description:
+      "Build my own portfolio website and deployed it on netlify.",
+    image: "./portfolio.gif",
+    link: "https://github.com/vinitajain1/my-portfolio-website",
+  },
 ];
 
 export const skills = [
